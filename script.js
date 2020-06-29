@@ -3,12 +3,9 @@
 //Initial name change
 function askName() {
 let userName = prompt('What is your name? ☺');
-
-document.getElementById('name').innerHTML = userName + '!';
+if (!userName) {
+    alert("Uh oh! You didn't give a name! Things might get fonkey with the name now!")
 }
 
-//If change again
-function askNameChange() {
-    let changedName = prompt('What is your name again? ☺');
-    document.getElementById('name').innerHTML = changedName + '!';
+document.getElementById('name').innerHTML = userName + '!';
 }
