@@ -1,9 +1,28 @@
 body {
     background-color: rgb(0, 79, 197);
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-pre {
-    font-family: Arial, Helvetica, sans-serif; font-size: 50px;
+hr {
+width: 80%;
+}
+
+.preMain {
+    font-family: Arial, Helvetica, sans-serif; font-size: 50px; font-weight: bold;
+}
+.preSecond {
+    font-family: Arial, Helvetica, sans-serif; font-size: 35px; 
+}
+
+button, button:link {
+    font-size: 40px;
+    padding: 5px 5px;
+    background-color: lightblue;
+    border: 5px outset silver
+}
+button:hover {
+    background-color: rgb(81, 161, 187)
+}
+button:active {
+    border: 5px inset silver
 }
