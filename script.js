@@ -4,13 +4,11 @@
 function askName() {
 let userName = prompt('What is your name? ☺');
 
-document.getElementById('1').innerHTML = userName;
+document.getElementById('name').innerHTML = userName;
 }
 
 //If change again
-document.getElementById("nameChangeButton").addEventListener("click", function askNameChange(e) {
-    getdata()
+function askNameChange() {
     let changedName = prompt('What is your name again? ☺');
-    document.getElementById('1').innerHTML = changedName;
-});
-
+    document.getElementById('name').innerHTML = changedName;
+}
