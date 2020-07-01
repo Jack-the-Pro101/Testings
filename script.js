@@ -62,6 +62,8 @@ function calcAdd() {
 
     result = finalInput1+finalInput2;
 
+    parseInt(result);
+
     document.getElementById('calcResult').innerHTML = result;               //let isnum = /^\d+$/.test(value);
 }
 function calcSub() {
