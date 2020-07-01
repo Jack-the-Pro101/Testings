@@ -57,12 +57,11 @@ function calcInput2() {
 }
 function calcAdd() {
     let result;
-    parseInt(finalInput1);
-    parseInt(finalInput2);
 
-    result = finalInput1+finalInput2;
+    let finalInput1Parsed = parseInt(finalInput1);
+    let finalInput2Parsed = parseInt(finalInput2);
 
-    parseInt(result);
+    result = finalInput1Parsed+finalInput2Parsed;
 
     document.getElementById('calcResult').innerHTML = result;               //let isnum = /^\d+$/.test(value);
 }
